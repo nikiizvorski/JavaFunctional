@@ -2,24 +2,25 @@
 
 Why is this project made? 
 
-- Main reason is for people to understand how all of the changes in Java 1.8 are done and why, how they are going to have
+Main reason is for people to understand how all of the changes in Java 1.8 are done and why, how they are going to have
 to use them in future let say they are working as Android Developer soon Google will implement Functional as default.
 
-Really important is to understand what Reduction is and what Recursion is!
-
-Since we are getting away for imperative way of programming which is basically thinking and using Loops.
-
-In Functional we use recursion , reduction and nested calls.
+Really important is to understand what Reduction is and what Recursion is! Since we are getting away for imperative way of programming which is basically thinking and using Loops. In Functional we use recursion , reduction and nested calls.
 
 Okay what is Functional Programming in Java and how is it different from before?
 
-0 - Main is that Java actually need this. Since functional programming is really easy to read, provided behavior as parameter also and 
-to simplify parallel coding.
+0 - Main is that Java actually need this. Since functional programming is really easy to read, provided behavior as parameter also and to simplify parallel coding. Java 1.8 still uses Fork/Join framework which brakes the treads into single
+smaller task and then can be combined or manipulated!
 
-1 - First Functional Programming allow you to use Lambdas and Method References, Functional Interfaces which are interfaces that have
-only one abstract method in them. You have to consider that method like equals are not counted since they use the Object class.
+1 - First Functional Programming allow you to use Lambdas and Method References, Functional Interfaces which are interfaces that haveonly one abstract method in them. You have to consider that method like equals are not counted since they use the Object class.
 
 2 - Lambdas are anonymous functions which can only be used inside Functional interface.
+
+- Referencing Instance Variables - are variables which are not final or effectively final.
+
+- thee types of variables can be used inside the lambdas without the need to be inside the scope,
+
+- the compiler will add [this] in your behalf without the need for you to provide it.
 
 3 - Method References is a way to short the expression the compiler will help you with that.
 
