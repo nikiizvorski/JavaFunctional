@@ -45,4 +45,13 @@ public class Person {
     public int getAge() {
         return age;
     }
+
+    /**
+     *
+     * @return the object params
+     */
+    @Override
+    public String toString() {
+        return getFirstname() + " " + getLastname() + " " + getAge();
+    }
 }

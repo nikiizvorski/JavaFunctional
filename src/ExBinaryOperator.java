@@ -4,6 +4,8 @@ import java.util.function.BinaryOperator;
  * Created by nikiizvorski on 31/03/2017.
  *
  * BinaryOperator represents an operation upon two operands of the same type, producing a result of the same type.
+ *
+ * It is also called Accumulator used in Reduction
  */
 public class ExBinaryOperator {
 
