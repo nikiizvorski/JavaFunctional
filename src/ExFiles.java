@@ -24,7 +24,7 @@ public class ExFiles {
         findLongestLengthOfLine();
         findLongestLineInFile();
         findallwordswithSameLetter("niki");
-        findAnagramwordInFile("margin");
+        findAnagramwordInFile("words");
     }
 
     /**
@@ -79,7 +79,8 @@ public class ExFiles {
 
     /**
      *
-     * Print Result
+     * Print Result mapping to Int to avoid AutoBoxing and UnBoxing
+     * truly amazing methods
      *
      * @throws IOException the io exception
      */
